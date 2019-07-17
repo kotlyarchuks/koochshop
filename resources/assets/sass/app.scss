@@ -7,3 +7,38 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+a {
+  color: #636b6f;
+
+  &:hover {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.input {
+  @apply .border .border-accent .rounded .outline-none .text-gray-800
+}
+
+.cart-icon {
+  @apply .absolute .rounded-full .bg-accent .text-white .text-sm;
+
+  bottom: -3px;
+  left: -5px;
+  padding: 1px;
+  line-height: 17px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
+
+

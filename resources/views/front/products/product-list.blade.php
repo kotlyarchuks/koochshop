@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="product-text">
-                        <h4>{{ $product->name }}</h4>
+                        <h4 class="text-red-400">{{ $product->name }}</h4>
                         <p>
                             {{ config('cart.currency') }}
                             @if(!is_null($product->attributes->where('default', 1)->first()))

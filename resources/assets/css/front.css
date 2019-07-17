@@ -36,7 +36,6 @@ body {
     font-family: 'Muli', sans-serif;
     font-size: 15px;
     line-height: 27px;
-    font-color: black;
     margin-bottom: 170px;
 }
 ::-moz-selection {
@@ -61,16 +60,6 @@ p {
     font-weight: 400;
     margin-bottom: 15px;
     margin-top: 0px;
-}
-a {
-    color: #d89522;
-    cursor: pointer;
-    text-decoration: none;
-    transition: .3s;
-}
-a:hover {
-    color: #d89522;
-    text-decoration: none;
 }
 
 .btn.focus, .btn:focus, .btn:hover {
@@ -120,74 +109,6 @@ ul.navbar-nav > li.active > a {
     color: #919191;
     margin: 0;
 }
-
-
-
-
-
-
-
-/* ************************
-            MENU
-************************** */
-.navbar-default .navbar-brand {
-    color: #222;
-    letter-spacing: 5px;
-    font-size: 22px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.navbar-default {
-    background-color: transparent !important;
-    border: none;
-}
-
-ul.navbar-nav li a{
-    font-size: 15px;
-    color: #52575d !important;
-    background: transparent !important;
-}
-
-ul.navbar-nav li a:hover {
-    color: #d89522 !important
-}
-
-
-
-li.menubar-cart a {
-    display: inline-block;
-
-}
-
-.menu-shopping-cart {
-    position: relative;
-}
-.fa-shopping-cart  {
-    font-size: 20px;
-    color: #222;
-}
-.cart-number {
-    color: #fff;
-    background: #d89522;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    width: 18px;
-    height: 18px;
-    line-height: 17px;
-    display: inline-block;
-    position: absolute;
-    top: 7px;
-    right: 3px;
-    border-radius: 10px;
-}
-
-
-
-
-
-
 
 
 /* ************************
@@ -477,22 +398,7 @@ li.menubar-cart a {
     width: 390px;
     margin: 50px auto 0;
 }
-input,
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea, select {
-    border: 1px solid #d89522;
-    background: #fff;
-    border-radius: 3px !important;
-    color: #c4c4c4;
-    outline: none;
-    font-size: 15px;
-    text-align: center;
-    line-height: 1;
-    vertical-align: middle;
-    font-weight: 300;
-}
+
 .newsletter-input {
     height: 40px;
     width: 250px;
