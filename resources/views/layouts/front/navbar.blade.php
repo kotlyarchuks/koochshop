@@ -18,10 +18,10 @@
             <div>
                 <ul class="list-none flex items-center text-2xl">
                     @if(auth()->check())
-                        <li>
+                        <li class="mr-12">
                             <a href="{{ route('accounts', ['tab' => 'profile']) }}">My Account</a>
                         </li>
-                        <li>
+                        <li class="mr-12">
                             <a href="{{ route('logout') }}">Logout</a>
                         </li>
                     @else
